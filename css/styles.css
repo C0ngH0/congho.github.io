@@ -18,14 +18,6 @@
 {
     z-index: 6;
 }
-.slides-navigation .prev,
-.slides-navigation .next 
-{
-    width: 47px;
-    height: 47px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .titleMessage
 {
@@ -60,20 +52,23 @@
 
 .section
 {
-    padding: 5vh 0;
+    padding: 10vh 0;
 }
 
 .aboutImage
 {
-    width: 370px;
+    width: 100%;
     border-radius: 50%;
+}
+
+.techStackSection
+{
+    background-color: #f6f4f4;
 }
 
 .skills h4
 {
-    text-align: left;
-    margin-left: 123px;
-    margin-top: 40px;
+    
 }
 
 button.icon-button
@@ -89,7 +84,6 @@ button.icon-button
 .logos ul
 {
     list-style: none;
-    margin-top: 37px;
 }
 
 .logos li
